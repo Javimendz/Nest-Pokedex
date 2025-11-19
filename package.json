@@ -26,8 +26,12 @@
     "@nestjs/mongoose": "^11.0.3",
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/serve-static": "^5.0.4",
+    "axios": "0.27.2",
     "class-validator": "^0.14.2",
+    "install": "^0.13.0",
     "mongoose": "^8.19.3",
+    "npm": "^11.6.2",
+    "o": "^2.3.2",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
     "validation-pipe": "^0.0.0"
