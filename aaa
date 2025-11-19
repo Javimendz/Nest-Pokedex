@@ -1,0 +1,36 @@
+
+El Prayecto para  backend debería estar diseñado como un API RESTful que sirva datos a tu app
+
+Android App: frontend móvil que consume la API (JSON).
+
+Spring Boot: backend que maneja lógica de negocio y acceso a datos.
+
+Base de Datos:  PostgreSQL
+
+Backend con Spring Boot
+-------------------------
+
+    Dependencias principales
+
+En tu pom.xml o build.gradle:
+
+Spring Web (para crear REST API)
+
+Spring Data JPA (para acceso a base de datos relacional)
+
+Driver de base de datos (MySQL/PostgreSQL)
+
+Spring Security (opcional, para autenticación)  
+
+Comunicación con Android
+------------------------
+
+ app Android:
+
+Usar Retrofit, Volley o HttpClient para consumir la API.
+
+Obtienes JSON de Spring Boot.
+
+Mapeas JSON a objetos en Kotlin/Java:
+
+Mostrarlos en RecyclerView, ListView, etc.
