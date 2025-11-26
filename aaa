@@ -45,3 +45,4 @@ La base de datos debe ser relacional si usas Spring Data JPA.
 
 Agregar seguridad mínima (JWT o token simple) para simular autenticación.
 
+dddddddddddddddddd
