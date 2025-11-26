@@ -1,5 +1,5 @@
 
-El Prayecto para  backend debería estar diseñado como un API RESTful que sirva datos a tu app
+En el Prayecto para  backend debería estar diseñado como un API RESTful que sirva datos a la app
 
 Android App: frontend móvil que consume la API (JSON).
 
@@ -34,3 +34,14 @@ Obtienes JSON de Spring Boot.
 Mapeas JSON a objetos en Kotlin/Java:
 
 Mostrarlos en RecyclerView, ListView, etc.
+
+
+Consideraciones para el TFG
+---------------------------
+
+Mantener separación de capas: controlador → servicio → repositorio.
+
+La base de datos debe ser relacional si usas Spring Data JPA.
+
+Agregar seguridad mínima (JWT o token simple) para simular autenticación.
+
